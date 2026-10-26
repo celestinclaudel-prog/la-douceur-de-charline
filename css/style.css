@@ -1,0 +1,444 @@
+* {
+    box-sizing: border-box;
+}
+
+.conteneur-header {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 20px;
+    gap: 50px;
+}
+body {
+    font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+}
+main {
+	background-color: #FFF8F2;
+    padding: 10px 5%;
+}
+header {
+	background-color: #ffede1;
+    color: white;
+    padding: 20px;
+}
+h3 {
+    font-family: "Lora", serif;
+    font-size: 2rem;
+    margin: 5px 0;
+    text-align: center;
+}
+nav a {
+    color: #998976;
+    text-decoration: none;
+}
+nav ul {
+    font-size: 1.4rem;
+    font-family: "Lora", serif;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.logo {
+    width: 40rem;
+	display: block;
+	margin: 0 auto;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+header p {
+    margin-top: 5px;
+}
+
+.contenu-header {
+    flex: 1;
+    margin:0;
+}
+
+
+.grille-massages {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.carte-massage {
+    border: 1px solid #d5d5d5;
+    padding: 30px;
+    background-color: white;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Partie texte à gauche */
+.contenu-massage {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Titre */
+.carte-massage h3 {
+    font-family: "Lora", serif;
+    font-size: 1.3rem;
+    margin: 0 0 15px;
+    text-align: left;
+}
+
+/* Description */
+.carte-massage .accroche {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 0.9rem;
+    margin: 0 0 20px;
+    text-align: left;
+}
+
+/* Lien */
+.carte-massage a {
+    color: #998976;
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+}
+
+.carte-massage a:hover {
+    text-decoration: underline;
+}
+
+/* Image à droite */
+.carte-massage img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+
+article {
+    border: 1px solid #d5d5d5;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+article img {
+    width: 80%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.titres {
+    font-family: "Lora", serif;
+    font-size: 2rem;
+    margin:0;
+    padding:0;
+}
+h2 {
+    font-family: "Lora", serif;
+    font-size: 2rem;
+}
+.duree {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.1rem;
+    font-style: bold;
+    font-weight: bold;
+    min-height: 1.1em;
+}
+
+.presentation-massage {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin:0%;
+}
+
+.presentation-massage img {
+    width: 25rem;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    padding:3%;
+}
+
+.infos-massage {
+    text-align: left;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.3rem;
+    flex: 0 1 auto;
+	padding-left:3%;
+	padding-right:3%;
+}
+
+.infos-massage .duree {
+    font-size: 1.4rem;
+}
+
+.texte-massage {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.3rem;
+    text-align:justify;
+}
+.texte-a-propos {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.4rem;
+    text-align: justify;
+    padding-left:3%;
+    padding-right:3%;
+}
+
+.a-propos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.a-propos figure {
+	width:200%;
+	}
+
+.a-propos img {
+    width:100%;
+    object-fit: cover;
+    flex-shrink: 0;
+    padding : 0; 
+	margin-left:0;
+	margin-right:0;
+}
+
+.a-propos p{
+    font-family: "Lora", serif;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.contact p{
+	font-family: "Lora", serif;
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+footer {
+    background-color: #ffede1;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1rem;
+    color:#998976;
+}
+
+footer p {
+    margin: 0;
+}
+
+.prendre-rdv {
+    border: 1px solid #d5d5d5;
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.3rem;
+    text-align:center;
+    margin-left:5%;
+    margin-right:5%;
+    padding-left:5%;
+    padding-right:5%;
+    background-color: #FFF8F2;
+}
+
+.planning {
+	display:flex;
+    justify-content: center;
+    text-align:center;
+	}
+.planning img {
+		width:50vw;
+	}
+
+.infos-supplementaires {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+.contact img {
+	width:40px;
+	}
+
+.grille-photos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.grille-photos img {
+	width:100%
+	}
+
+.conteneur-images {
+  display: flex; /* Active le mode Flexbox */
+  gap: 15px;     /* Espace entre les deux images (optionnel) */
+  align-items: center; /* Aligne verticalement les images */
+}
+
+.conteneur-images img {
+  max-width: 100%; /* Rend les images adaptatives */
+  height: auto;
+}
+
+/* Par défaut (desktop), le titre mobile est caché */
+.titre-mobile { display: none; }
+.figure-mobile { display: none; }
+
+@media (max-width: 1500px) {
+    .grille-massages {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 30px;
+    }
+}
+@media (max-width: 900px) {
+
+	.titre-desktop { display: none; }
+	.titre-mobile  { display: block; }
+	.figure-mobile { display: block; }
+	.figure-desktop { display: none; }
+
+	.figure-mobile {
+		width: 70vw;
+	}
+
+	.figure-mobile img {
+		width: 100%;      /* l'image remplit le figure (donc 70 % du parent) */
+		height: auto;    /* garde les proportions */
+	}
+	    /* HEADER */
+	.logo{
+		width:21rem;
+		display: block;
+		margin: 0 auto;
+	}
+    .conteneur-header {
+        flex-direction: column;
+        gap: 0px;
+        padding: 0 10px;
+        justify-content: center;
+		align-items: center;
+    }
+
+    .contenu-header {
+        width: 100%;
+    }
+
+
+    nav ul {
+		font-size: 0.95rem;
+		display: flex;
+		justify-content: space-between;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+    }
+    
+    h2 {
+		font-size:1.5rem;
+	}
+
+	.carte-massage {
+		flex-direction: column-reverse;
+		align-items: stretch;
+		gap: 20px;
+		padding: 20px;
+	}
+
+	.carte-massage img {
+		width: 100%;
+		height: 220px;
+	}
+
+	.carte-massage h3 {
+		text-align: center;
+		font-size:1.2rem;
+	}
+
+	.carte-massage .accroche {
+		font-size: 0.9rem;
+	}
+
+	.carte-massage a {
+		text-align: center;
+		font-size: 0.9rem;
+	}
+
+
+    .grille-massages {
+        grid-template-columns: 1fr;
+    }
+
+    .grille-photos {
+        grid-template-columns: 1fr;
+    }
+
+
+    /* PAGE D'UNE CHRONIQUE */
+
+
+    .presentation-massage {
+        flex-direction: column;
+        gap: 10px;
+        margin:2%;
+    }
+
+    .presentation-massage img {
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .infos-massage {
+        width: 100%;
+        padding-left: 0;
+        font-size: 1.2rem;
+    }
+
+    .infos-massage .duree {
+        font-size: 1.3rem;
+    }
+    
+    .infos-massage h2 {
+        font-size: 1.3rem;
+    }
+
+    .texte-massage {
+        font-size: 1.1rem;
+    }
+    .prendre-rdv {
+        font-size: 0.85rem;
+    }
+	.infos-supplementaires {
+		font-size: 1rem;
+	}
+	.a-propos p{
+    font-size: 1.2rem;
+	}
+	.contact p{
+    font-size: 1.1rem;
+	}
+	.a-propos p{
+		font-size: 0.9rem;
+		text-align: justify;
+	}
+	.planning img {
+		width:90vw;
+	}
+}
+
